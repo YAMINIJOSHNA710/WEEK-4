@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Data Types</title>
+</head>
+<body>
+    <h1>JavaScript Data Types</h1>
+    <script>
+        let num = 42;
+        console.log('Number:', num);
+        let str = 'Hello, World!';
+        console.log('String:', str);
+        let boolTrue = true;
+        let boolFalse = false;
+        console.log('Boolean True:', boolTrue);
+        console.log('Boolean False:', boolFalse);
+        let undefinedVar;
+        console.log('Undefined:', undefinedVar);
+        let nullVar = null;
+        console.log('Null:', nullVar);
+        let obj = {
+            name: 'Alice',
+            age: 30,
+            isStudent: false
+        };
+        console.log('Object:', obj);
+        let arr = [1, 'two', true, null];
+        console.log('Array:', arr);
+        function greet(name) {
+            return `Hello, ${name}!`;
+        }
+        let greeting = greet('Bob');
+        console.log('Function:', greeting);
+        let sym = Symbol('description');
+        console.log('Symbol:', sym);
+        let bigInt = 1234567890123456789012345678901234567890n;
+        console.log('BigInt:', bigInt);
+    </script>
+</body>
+</html>
