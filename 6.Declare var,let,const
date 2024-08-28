@@ -1,0 +1,13 @@
+var x = 10;
+console.log('Using var:', x);
+let y = 20;
+console.log('Using let:', y);
+const z = 30;
+console.log('Using const:', z);
+x = 15;
+y = 25;
+z = 35; 
+console.log('After reassignment:');
+console.log('Using var:', x);
+console.log('Using let:', y);
+console.log('Using const:', z);
