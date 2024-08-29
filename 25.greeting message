@@ -1,0 +1,7 @@
+const greeter = {
+    message: 'Hello, welcome!',
+    greet: function() {
+        console.log(this.message);
+    }
+};
+greeter.greet();
