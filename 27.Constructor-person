@@ -1,0 +1,10 @@
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+const person1 = new Person('Yamini', 21);
+const person2 = new Person('Bhavya', 19);
+console.log(person1.name); 
+console.log(person1.age); 
+console.log(person2.name);
+console.log(person2.age); 
