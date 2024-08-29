@@ -1,0 +1,7 @@
+let fruits = ['Apple', 'Banana', 'Cherry'];
+console.log('Initial array:', fruits);
+let removedFruit = fruits.shift();
+console.log('After shift:', fruits);
+console.log('Removed fruit:', removedFruit);
+fruits.unshift('Mango');
+console.log('After unshift:', fruits);
