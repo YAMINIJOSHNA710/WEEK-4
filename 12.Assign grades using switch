@@ -1,0 +1,33 @@
+function assignGrade(marks) {
+    let grade;
+    switch (true) {
+        case (marks >= 90 && marks <= 100):
+            grade = 'A+';
+            break;
+        case (marks >= 80 && marks < 90):
+            grade = 'A';
+            break;
+        case (marks >= 70 && marks < 80):
+            grade = 'B+';
+            break;
+        case (marks >= 60 && marks < 70):
+            grade = 'B';
+            break;
+        case (marks >= 50 && marks < 60):
+            grade = 'C+';
+            break;
+        case (marks >= 40 && marks < 50):
+            grade = 'C';
+            break;
+        case (marks >= 0 && marks < 40):
+            grade = 'D';
+            break;
+        default:
+            grade = 'Invalid marks';
+            break;
+    }
+    return grade;
+}
+let marks = 85; 
+let grade = assignGrade(marks);
+console.log(`Marks: ${marks}, Grade: ${grade}`);
