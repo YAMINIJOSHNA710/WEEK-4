@@ -1,0 +1,4 @@
+const names= ['Yamini', 'Joshna', 'Nandu', 'Bhavya', 'Sravan'];
+for (const name of names) {
+    console.log(name);
+}
