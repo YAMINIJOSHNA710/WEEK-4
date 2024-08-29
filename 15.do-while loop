@@ -1,0 +1,8 @@
+let n;
+do {
+    n = prompt("Enter something (type 'stop' to end):");
+    console.log("You entered:", n);
+} while (n.toLowerCase() !== "stop");
+
+console.log("You entered 'stop'. The loop has ended.");
+
