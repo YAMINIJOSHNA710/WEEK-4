@@ -1,0 +1,8 @@
+let globalVariable = 'global variable';
+function demonstrateScope() {
+  let localVariable = 'local variable';
+  console.log(globalVariable);
+  console.log(localVariable); 
+}
+demonstrateScope();
+console.log(globalVariable); 
