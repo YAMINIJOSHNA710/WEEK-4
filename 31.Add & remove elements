@@ -1,0 +1,9 @@
+let fruits = ['Apple', 'Banana', 'Cherry'];
+console.log('Initial array:', fruits);
+fruits.push('Date');
+fruits.push('Elderberry');
+console.log('After push:', fruits);
+let removedFruit1 = fruits.pop();
+let removedFruit2 = fruits.pop();
+console.log('After pop:', fruits);
+console.log('Removed fruits:', removedFruit1, removedFruit2);
