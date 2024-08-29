@@ -1,0 +1,19 @@
+let a = 10;
+let b = 20;
+let c = 30;
+if (a < b && b < c) {
+    console.log("Both conditions are true");
+} 
+else {
+    console.log("One or both conditions are false");
+}
+if (a > b || b < c) {
+    console.log("At least one of the conditions is true: a > b or b < c");
+} else {
+    console.log("Both conditions are false: a > b or b < c");
+}
+if (!(a > c)) {
+    console.log("The condition 'a > c' is false");
+} else {
+    console.log("The condition 'a > c' is true");
+}
