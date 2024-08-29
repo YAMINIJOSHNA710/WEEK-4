@@ -1,0 +1,11 @@
+const person = {
+    firstName: 'Yamini',
+    lastName: 'Joshna',
+    fullName: function() {
+        return this.firstName + ' ' + this.lastName;
+    },
+    greet: function() {
+        console.log('Hello, my name is ' + this.fullName());
+    }
+};
+person.greet();
