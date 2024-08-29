@@ -1,0 +1,3 @@
+const toUpperCase = (str) => str.toUpperCase();
+console.log(toUpperCase('hello'));
+console.log(toUpperCase('world')); 
